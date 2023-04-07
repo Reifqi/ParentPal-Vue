@@ -1,0 +1,49 @@
+h1, h2 {
+    font-weight: normal;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  }
+
+/* Sign up or Register Page */
+
+.container-main {
+  margin-top: 50px;
+}
+
+.card-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+.tittle-register {
+  text-align: center;
+}
+
+.tittle-register h1 {
+  font-weight: bolder;
+  color: #000000;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.tittle-register h4 {
+  color: #787878;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 70px;
+}
