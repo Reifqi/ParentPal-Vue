@@ -1,7 +1,11 @@
 <template>
-    <div>
-        <h1>Login</h1>
+  <div class="login-page">
+    <div class="login-card">
+      <div class="login-image">
+      </div>
+      <div class="login-form">
         <form @submit.prevent = 'saveData'>
+          <h1>Login</h1>
             <div class="form-group">
                 <label for="email">Email address</label>
                 <input type="email" v-model="user.email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
@@ -12,11 +16,12 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+      </div>
     </div>
+  </div>
 </template>
 <script>
 import axios from 'axios'
-
 export default{
   name: 'Login',
   data () {

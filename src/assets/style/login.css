@@ -1,0 +1,46 @@
+.login-card {
+    display: flex;
+    border-radius: 50px;
+    border: 3px solid #ccc;
+    padding: 10px;
+    height: 500px;
+    width: 70%;
+    margin: 5rem auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+}
+
+
+
+
+.login-image {
+    background: rgba(171,129,222,.49);
+    background-position: right -50px top 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #fff;
+    border-radius: 50px 0 0 50px;
+    background-image: url('../image/ibuanak-img.png');
+
+    background-repeat: no-repeat; 
+    width: 35%;
+    height: 100%;
+}
+
+.login-form {
+    padding: 1rem;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.login-form button{
+    margin-top: 1rem;
+}
+
+.login-form .form-group{
+    margin-top: 1rem;
+}
