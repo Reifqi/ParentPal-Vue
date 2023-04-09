@@ -14,7 +14,8 @@
                 <label for="password">Password</label>
                 <input type="password" v-model="user.password" class="form-control" id="password" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <p>Belum punya akun? <router-link to='/register'>register</router-link></p>
         </form>
       </div>
     </div>

@@ -44,3 +44,17 @@
 .login-form .form-group{
     margin-top: 1rem;
 }
+
+.login-form button{
+    width: 100%;
+    background: linear-gradient(90.51deg,rgba(171,129,222,.7) 2.2%,#ee8fe4 87.81%);
+    border: 0;
+    border-radius: 6px;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* make login form p in center */
+.login-form p {
+    text-align: center;
+}
