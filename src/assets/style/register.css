@@ -1,14 +1,60 @@
-h2{
-    font-weight: normal;
-  }
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  a {
-    color: #42b983;
-  }
+.register-card {
+  display: flex;
+  border-radius: 50px;
+  border: 3px solid #ccc;
+  padding: 10px;
+  height: 500px;
+  width: 70%;
+  margin: 5rem auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+
+}
+
+
+
+
+.register-image {
+  background: rgba(171,129,222,.49);
+  background-position: right -50px top 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #fff;
+  border-radius: 50px 0 0 50px;
+  background-image: url('../image/ibuanak-img.png');
+
+  background-repeat: no-repeat; 
+  width: 35%;
+  height: 100%;
+}
+
+.register-form {
+  padding: 1rem;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.register-form button{
+  margin-top: 1rem;
+}
+
+.register-form .form-group{
+  margin-top: 1rem;
+}
+
+.register-form button{
+  width: 100%;
+  background: linear-gradient(90.51deg,rgba(171,129,222,.7) 2.2%,#ee8fe4 87.81%);
+  border: 0;
+  border-radius: 6px;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+/* make register form p in center */
+.register-form p {
+  text-align: center;
+}

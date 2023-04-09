@@ -1,31 +1,32 @@
 <!-- eslint-disable no-unused-vars -->
 <template>
-      <div class="tittle-register">
-        <h1>Register</h1>
-        <div class="formbox">
-          <form @submit.prevent="saveData">
-              <div class="textbox-register">
-                  <input type="text" v-model="user.firstname"/>
-                  <label>First Name</label>
-              </div>
-              <div class="textbox-register">
-                  <input type="text" v-model="user.lastname"/>
-                  <label>Last Name</label>
-              </div>
-              <div class="textbox-register">
-                  <input type="email" v-model="user.email"/>
-                  <label>Email</label>
-              </div>
-              <div class="textbox-register">
-                  <input type="password" v-model="user.password"/>
-                  <label>Password</label>
-              </div>
-              <button  type="submit" class="button-register">
-                  Register
-              </button>
-            </form>
-        </div>
+    <div class="register-card">
+      <div class="register-image">
       </div>
+      <div class="register-form">
+        <form @submit.prevent = 'saveData'>
+          <h1>Register</h1>
+          <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" v-model="user.firstname" class="form-control" id="firstname" aria-describedby="firstnameHelp" placeholder="Enter firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" v-model="user.lastname" class="form-control" id="lastname" aria-describedby="lastnameHelp" placeholder="Enter lastname">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" v-model="user.email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" v-model="user.password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">register</button>
+            <p>Sudah punya akun? <router-link to='/'>Login</router-link></p>
+        </form>
+      </div>
+    </div>
 </template>
 
 <script>
