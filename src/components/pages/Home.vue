@@ -1,16 +1,17 @@
 <template>
     <div class="home">
-        <p>{{ msg }}</p>
+        <Navigation/>
+        <h1>Home</h1>
     </div>
 </template>
 
 <script>
+import Navigation from './Navigation.vue';
+
 export default{
   name: 'Home',
-  data () {
-    return {
-      msg: 'Home Page'
-    }
+  components: {
+    Navigation
   }
 }
 </script>
