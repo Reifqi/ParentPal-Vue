@@ -1,5 +1,6 @@
 @import 'login.css';
 @import 'register.css';
+@import 'babyNameFinder.css';
 
 body {
   background-image: url('../image/background-homepage.png');

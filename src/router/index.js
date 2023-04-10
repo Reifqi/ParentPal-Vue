@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Register from '@/components/pages/Register'
 import Login from '@/components/pages/Login'
 import Home from '@/components/pages/Home'
+import BabyNameFinder from '@/components/pages/BabyNameFinder'
 
 Vue.use(Router)
 export default new Router({
@@ -22,6 +23,11 @@ export default new Router({
       path: '/home',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/babyname',
+      name: 'BabyNameFinder',
+      component: BabyNameFinder
     }
   ]
 })
