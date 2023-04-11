@@ -17,8 +17,11 @@
     "express": "^4.18.2",
     "mongoose": "^6.10.0",
     "simple-encryptor": "^4.0.0",
+    "use-sound": "^4.0.1",
     "vue": "^2.7.14",
-    "vue-router": "^3.0.1"
+    "vue-audio": "^0.0.12",
+    "vue-router": "^3.0.1",
+    "vue-sound": "^0.1.10"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
