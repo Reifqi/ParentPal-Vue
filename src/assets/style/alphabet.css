@@ -1,0 +1,18 @@
+.alphabet-page{
+    justify-content: center;
+    text-align: center;
+}
+
+.alphabet-button button{
+    margin: 10px;
+    width: 10rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(90.51deg,rgba(171,129,222,.7) 2.2%,#ee8fe4 87.81%);
+    color: aliceblue ;
+}
+
+.alphabet-button{
+    margin-top: 5rem;
+}

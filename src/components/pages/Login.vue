@@ -16,6 +16,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Login</button>
             <p>Belum punya akun? <router-link to='/register'>register</router-link></p>
+
         </form>
       </div>
     </div>

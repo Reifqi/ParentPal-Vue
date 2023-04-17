@@ -1,8 +1,8 @@
 <template>
-  
+
     <div class="baby-name-finder-container">
       <Navigation/>
-      
+
       <h1>Baby Name List</h1>
       <h3>Choose gender to get list of names</h3>
       <div class="baby-name-finder-category__button">
@@ -27,11 +27,9 @@
     </div>
 </template>
 
-
-
 <script>
 import axios from 'axios'
-import Navigation from './Navigation.vue';
+import Navigation from './Navigation.vue'
 
 export default {
 
@@ -40,7 +38,6 @@ export default {
     Navigation
   },
 
-  name: 'BabyNameFinder',
   data () {
     return {
       names: []
