@@ -2,6 +2,7 @@
 @import 'register.css';
 @import 'babyNameFinder.css';
 @import 'alphabet.css';
+@import 'home.css';
 
 body {
   background-image: url('../image/background-homepage.png');

@@ -1,5 +1,6 @@
 <template>
     <div class="alphabet-page">
+      <Navigation/>
       <h1>Click to learn alphabets!</h1>
       <h3>Listen carefully, and also pronounce it!</h3>
       <div class="alphabet-button">
@@ -11,7 +12,15 @@
   </template>
 
 <script>
+import Navigation from './Navigation.vue'
+
 export default {
+
+  name: 'Alphabet',
+  components: {
+    Navigation
+  },
+
   data () {
     return {
       audioFiles: {

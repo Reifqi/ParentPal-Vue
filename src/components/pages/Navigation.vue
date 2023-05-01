@@ -28,7 +28,7 @@
             <router-link class="nav-link" to="/babyname">Name Finder</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Learn Alphabet</router-link>
+            <router-link class="nav-link" to="/alphabet">Learn Alphabet</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/">

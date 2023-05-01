@@ -1,8 +1,6 @@
 <template>
-
     <div class="baby-name-finder-container">
       <Navigation/>
-
       <h1>Baby Name List</h1>
       <h3>Choose gender to get list of names</h3>
       <div class="baby-name-finder-category__button">
