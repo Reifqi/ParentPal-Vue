@@ -6,6 +6,7 @@ import Login from '@/components/pages/Login'
 import Home from '@/components/pages/Home'
 import BabyNameFinder from '@/components/pages/BabyNameFinder'
 import Alphabet from '@/components/pages/Alphabet'
+import Community from '@/components/pages/Community'
 
 Vue.use(Router)
 export default new Router({
@@ -34,6 +35,11 @@ export default new Router({
       path: '/alphabet',
       name: 'Alphabet',
       component: Alphabet
+    },
+    {
+      path: '/community',
+      name: 'Community',
+      component: Community
     }
   ]
 })

@@ -18,11 +18,11 @@
         <div class="column-header">
           <article>
             <h2 id="judul">
-              Welcome to EarlEdu! <br />The best gift a parent can give children
+              Welcome to Parpal! <br />The best gift a parent can give children
               is time!
             </h2>
             <h2 id="isi">
-              EarlEdu is ready to help parents in nurturing their loved ones!
+              Parpal is ready to help parents in nurturing their loved ones!
             </h2>
           </article>
         </div>
