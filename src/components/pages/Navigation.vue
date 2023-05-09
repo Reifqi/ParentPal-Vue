@@ -19,10 +19,7 @@
             <router-link class="nav-link" to="/home">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/"></router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/">Community</router-link>
+            <router-link class="nav-link" to="/community">Community</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/babyname">Name Finder</router-link>
@@ -31,9 +28,7 @@
             <router-link class="nav-link" to="/alphabet">Learn Alphabet</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">
-            Logout
-            </router-link>
+            <router-link class="nav-link" to="/">Logout</router-link>
           </li>
         </ul>
       </div>
