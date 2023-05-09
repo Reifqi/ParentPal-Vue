@@ -49,7 +49,7 @@
                 </div>
                 <div class="card">
                     <a href="https://t.me/+asZ_jDOsxIU5OTll">
-                    <img src="../../assets/image/com-specialkids.svg" alt="logofeature"/>
+                    <img src="../../assets/image/com-newborn.svg" alt="logofeature"/>
                     <h3>Newborn</h3>
                     <p>Join this community if you are a working mom!</p>
                     </a>
